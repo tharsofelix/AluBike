@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.projetonavigationdrawer.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_cadastro"
+        android:name="com.example.projetonavigationdrawer.ui.cadastro.CadastroFragment"
+        android:label="@string/menu_cadastro"
+        tools:layout="@layout/fragment_cadastro" />
+
+    <fragment
+        android:id="@+id/nav_pedaladas"
+        android:name="com.example.projetonavigationdrawer.ui.pedaladas.PedaladasFragment"
+        android:label="@string/menu_pedaladas"
+        tools:layout="@layout/fragment_pedaladas" />
+
+    <fragment
+        android:id="@+id/nav_agendamento"
+        android:name="com.example.projetonavigationdrawer.ui.agendamentos.AgendamentosFragment"
+        android:label="@string/menu_agendamento"
+        tools:layout="@layout/fragment_agendamentos" />
+
+    <fragment
+        android:id="@+id/nav_milhas"
+        android:name="com.example.projetonavigationdrawer.ui.milhas.MilhasFragment"
+        android:label="@string/menu_milhas"
+        tools:layout="@layout/fragment_milhas" />
+
+    <fragment
+        android:id="@+id/nav_missao"
+        android:name="com.example.projetonavigationdrawer.ui.missao.MissaoFragment"
+        android:label="@string/menu_missao"
+        tools:layout="@layout/fragment_missao" />
+
+    <fragment
+        android:id="@+id/nav_sobre"
+        android:name="com.example.projetonavigationdrawer.ui.sobre.SobreFragment"
+        android:label="@string/menu_sobre"
+        tools:layout="@layout/fragment_sobre" />
+
+    <fragment
+        android:id="@+id/nav_contato"
+        android:name="com.example.projetonavigationdrawer.ui.sobre.contato.ContatoFragment"
+        android:label="@string/menu_contato"
+        tools:layout="@layout/fragment_contato" />
+
+    <fragment
+        android:id="@+id/nav_redes"
+        android:name="com.example.projetonavigationdrawer.ui.sobre.contato.RedesFragment"
+        android:label="@string/menu_redes"
+        tools:layout="@layout/fragment_redes" />
+
+</navigation>

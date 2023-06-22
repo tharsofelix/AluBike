@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".ui.sobre.SobreFragment">
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="126dp"
+            android:layout_height="38dp"
+            android:layout_marginStart="142dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="143dp"
+            android:text="Sobre"
+            android:textAlignment="center"
+            android:textColor="#142478"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="315dp"
+            android:layout_height="54dp"
+            android:layout_marginStart="48dp"
+            android:layout_marginTop="47dp"
+            android:layout_marginEnd="48dp"
+            android:text="Contato"
+            android:textAlignment="viewStart"
+            android:textColor="#278A2B"
+            android:textSize="20sp"
+            android:textStyle="bold|italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.372"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView14" />
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="315dp"
+            android:layout_height="54dp"
+            android:layout_marginStart="48dp"
+            android:layout_marginTop="45dp"
+            android:layout_marginEnd="48dp"
+            android:text="Redes Sociais"
+            android:textAlignment="viewStart"
+            android:textColor="#278A2B"
+            android:textSize="20sp"
+            android:textStyle="bold|italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.372"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView17" />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="48dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="158dp"
+            android:text="e-mail: alubike@uva.br"
+            android:textColor="#000000"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView15" />
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="48dp"
+            android:layout_marginTop="22dp"
+            android:layout_marginEnd="175dp"
+            android:text="www.alubike.com.br/sobre"
+            android:textColor="#000000"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView16" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="70dp"
+            android:layout_height="68dp"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="52dp"
+            android:src="@drawable/twitter_logo_3"
+            app:layout_constraintStart_toEndOf="@+id/imageView4"
+            app:layout_constraintTop_toBottomOf="@+id/textView18" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="71dp"
+            android:layout_height="68dp"
+            android:layout_marginStart="46dp"
+            android:layout_marginTop="52dp"
+            android:layout_marginEnd="28dp"
+            android:src="@drawable/facebook_f_logo__2019__svg"
+            app:layout_constraintEnd_toStartOf="@+id/imageView5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView18" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="131dp"
+            android:layout_height="51dp"
+            android:layout_marginStart="115dp"
+            android:layout_marginTop="44dp"
+            android:layout_marginEnd="114dp"
+            android:src="@drawable/disponivel_google_play_badge"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView5" />
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="80dp"
+            android:layout_height="86dp"
+            android:layout_marginStart="21dp"
+            android:layout_marginTop="44dp"
+            android:src="@drawable/insta"
+            app:layout_constraintStart_toEndOf="@+id/imageView5"
+            app:layout_constraintTop_toBottomOf="@+id/textView18" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

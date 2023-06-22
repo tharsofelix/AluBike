@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.agendamentos.AgendamentosFragment">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="208dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="101dp"
+        android:layout_marginTop="63dp"
+        android:layout_marginEnd="102dp"
+        android:text="Agendamentos"
+        android:textAlignment="center"
+        android:textColor="#142478"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="315dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="53dp"
+        android:layout_marginEnd="48dp"
+        android:text="Prazo para mudança ou desistência de locação sem custo e de 12h antecedentes."
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="374dp"
+        android:layout_height="331dp"
+        android:layout_marginTop="54dp"
+        android:stretchColumns="1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.486"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5">
+
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="217dp"
+                android:layout_height="39dp"
+                android:layout_column="1"
+                android:padding="10dip"
+                android:text="Sua viagem prevista para"
+                android:textSize="16sp" />
+
+            <TextView
+                android:gravity="right"
+                android:padding="10dip"
+                android:text="18/06 - 10h" />
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="217dp"
+                android:layout_column="1"
+                android:padding="10dip"
+                android:text="Sua viagem prevista para"
+                android:textSize="16sp" />
+
+            <TextView
+                android:gravity="right"
+                android:padding="10dip"
+                android:text="30/06 - 13h" />
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="217dp"
+                android:layout_column="1"
+                android:padding="10dip"
+                android:text="Sua viagem prevista para"
+                android:textSize="16sp" />
+
+            <TextView
+                android:gravity="right"
+                android:padding="10dip"
+                android:text="06/07 - 14h" />
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="217dp"
+                android:layout_column="1"
+                android:padding="10dip"
+                android:text="Sua viagem prevista para"
+                android:textSize="16sp" />
+
+            <TextView
+                android:gravity="right"
+                android:padding="10dip"
+                android:text="19/07 - 15h" />
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="217dp"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:padding="10dip"
+                android:text="Sua viagem prevista para"
+                android:textSize="16sp" />
+
+            <TextView
+                android:gravity="right"
+                android:padding="10dip"
+                android:text="27/07 - 14h" />
+
+        </TableRow>
+
+        <View
+            android:layout_height="5dip"
+            android:background="#FF909090" />
+
+    </TableLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

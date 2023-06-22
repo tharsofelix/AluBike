@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_cadastro"
+            android:icon="@drawable/ic_baseline_assignment_turned_in_24"
+            android:title="@string/menu_cadastro" />
+        <item
+            android:id="@+id/nav_pedaladas"
+            android:icon="@drawable/ic_baseline_directions_bike_24"
+            android:title="@string/menu_pedaladas" />
+
+        <item
+            android:id="@+id/nav_agendamento"
+            android:icon="@drawable/ic_baseline_calendar_today_24"
+            android:title="@string/menu_agendamento" />
+
+        <item
+            android:id="@+id/nav_milhas"
+            android:icon="@drawable/ic_baseline_place_24"
+            android:title="@string/menu_milhas" />
+
+        <item
+            android:id="@+id/nav_missao"
+            android:icon="@drawable/ic_baseline_directions_walk_24"
+            android:title="@string/menu_missao" />
+
+        <item
+            android:id="@+id/nav_sobre"
+            android:icon="@drawable/ic_baseline_more_24"
+            android:title="@string/menu_sobre" />
+
+    </group>
+</menu>
